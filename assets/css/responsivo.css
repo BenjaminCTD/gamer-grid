@@ -1,5 +1,10 @@
 @media screen and (min-width: 0){
 
+    .menu__item {
+       display: flex;
+       justify-content: space-between;
+    }
+
     .destaques__principal, .destaques__categorias {
         grid-column: 1 / 5;
     }
