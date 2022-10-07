@@ -45,7 +45,14 @@
     }
 }
 
+@media screen and (min-width: 450px){
+    .destaques__categorias___item{
+        width: 50%;
+    }
+}
+
 @media screen and (min-width: 768px){
+    
     .destaques__principal {
         grid-column: 1 / 4;
     }
